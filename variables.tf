@@ -10,11 +10,9 @@ variable "vpc_id" {
   
 }
 
-variable "sg_ingress_rules" {
-  
-}
 
-variable "ingress" {
+
+variable "sg_ingress_rules" {
    default = []
 }
 
